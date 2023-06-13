@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- FontAwesomeの読み込み -->
+    <script src="https://kit.fontawesome.com/bdf5f24fbb.js" crossorigin="anonymous"></script>
+    <!-- CSSファイルの読み込み -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>CARAVAN</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="container py-4 position-relative">
+      <h1 class=" text-center">
+        <a href="index.html">
+          CARAVAN
+        </a>
+      </h1>
+      <div class="d-none d-sm-block position-absolute top-0 end-0">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </header>
+
+    <!-- navigation -->
+    <nav class="">
+      <ul class="d-sm-flex justify-content-center text-center mx-auto">
+        <li class="me-sm-4">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="me-sm-4">About</li>
+        <li class="">Topic</li>
+      </ul>
+    </nav>
+
+    <!-- main-visual用のdiv -->
+    <div class="bg-image p-5 text-center" style="background-image: url(img/mv.jpg); ">
+      <div >
+        <p class="text-white">
+          The world is a book<br />
+          and those who do not travel<br />
+          read only one page.
+        </p>
+        <p class="text-white">
+          St. Augustine
+        </p>
+      </div>
+    </div>
+
+    <!-- main用のdiv -->
+    <main class="container">
+      <div class="row my-4">
+        <div class="col-12 col-md-9">
+          <section class="blog">
+            <h2 class="my-4 text-center">Recent Blogs</h2>
+            <div class="">
+              <div class="d-flex mt-4">
+                <img class="img-fluid w-50" src="img/forest.jpg" />
+                <section class="w-50 p-3">
+                  <h3 class="blog-text-heading">
+                    <a href="single.html">
+                      Hopeful lessons from<br />
+                      the battle to save<br />
+                      rainforests
+                    </a>
+                  </h3>
+                  <p class="d-inline me-2">June 19, 2017</p>
+                  <span class="bg-secondary text-white rounded p-1">Nature</span>
+                </section>
+              </div>
+              <div class="d-flex mt-4">
+                <img class="img-fluid w-50" src="img/desert.jpg" />
+                <section class="w-50 p-3">
+                  <h3 class="blog-text-heading">
+                    <a href="single.html">
+                      How to fight<br />
+                      desertification and<br />
+                      reverse climate change
+                    </a>
+                  </h3>
+                  <p class="d-inline me-2">June 17, 2017</p>
+                  <span class="bg-secondary text-white rounded p-1">Nature</span>
+                </section>
+              </div>
+              <div class="d-flex mt-4">
+                <img class="img-fluid w-50" src="img/sunset.jpg" />
+                <section class="w-50 p-3">
+                  <h3 class="blog-text-heading">
+                    <a href="single.html">
+                      Why I'm rowing<br />
+                      across the Pacific
+                    </a>
+                  </h3>
+                  <p class="d-inline me-2">June 16, 2017</p>
+                  <span class="bg-secondary text-white rounded p-1">Adventure</span>
+                </section>
+              </div>
+              <div class="d-flex mt-4">
+                <img class="img-fluid w-50" src="img/italy.jpg" />
+                <section class="w-50 p-3">
+                  <h3 class="blog-text-heading">
+                    <a href="single.html">
+                      Unseen footage,<br />
+                      untamed nature
+                    </a>
+                  </h3>
+                  <p class="d-inline me-2">June 15, 2017</p>
+                  <span class="bg-secondary text-white rounded p-1">Nature</span>
+                </section>
+              </div>
+              <div class="d-flex mt-4">
+                <img class="img-fluid w-50" src="img/asia.jpg" />
+                <section class="w-50 p-3">
+                  <h3 class="blog-text-heading">
+                    <a href="single.html">
+                      The case for<br />
+                      engineering our food
+                    </a>
+                  </h3>
+                  <p class="d-inline me-2">June 14, 2017</p>
+                  <span class="bg-secondary text-white rounded p-1">Culture</span>
+                </section>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example ">
+              <ul class="pagination my-4 justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+              </ul>
+            </nav>
+          </section>
+        </div>
+        <div class="col-12 col-md-3">
+          <section class="sideber my-4">
+            <h2 class="my-4 text-center">Popular</h2>
+            <div class="sidebar-contents">
+              <p class="popular-text">
+                To solve old problems,<br />study new species
+              </p>
+              <p class="popular-text">
+                Why Earth may someday<br />look like Mars
+              </p>
+              <p class="popular-text">
+                What will humans look<br />like in 100 years?
+              </p>
+              <p class="popular-text">
+                How to grow a forest<br />in your backyard
+              </p>
+              <p class="popular-text">
+                How humans could evolve<br />to survive in space
+              </p>
+            </div>
+          </section>
+          <section class="instagram my-4">
+            <h2 class="my-4 text-center">Instagram</h2>
+            <div class="d-flex flex-wrap justify-content-between">
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+              <div class="bg-secondary" style="width:48%; padding-top: 48%; margin-bottom: 4%;"></div>
+            </div>
+          </section>
+          <section class="categories my-4">
+            <h2 class="my-4 text-center">Categories</h2>
+            <div class="sidebar-contents">
+              <p class="categories-text">Technology(15)</p>
+              <p class="categories-text">Business(23)</p>
+              <p class="categories-text">Entertainment(12)</p>
+              <p class="categories-text">Nature(32)</p>
+              <p class="categories-text">Education(9)</p>
+              <p class="categories-text">Adventure(23)</p>
+              <p class="categories-text">Communication(14)</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <p class="footer-text text-center py-2">© All rights reserved by Infratop.Inc.</p>
+    </footer>
+  </body>
+</html>
+
+      
